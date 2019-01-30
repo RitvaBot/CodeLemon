@@ -41,8 +41,8 @@ while ctn:
     answer1 = int(input("Type a number >>"))
     if answer1 == 1:
         print("Your account: {}".format(website1))
-        question = input("Type u for username and p for password recovery.")
-    if answer == "u":
+        question = input("Type 1 for username and 2 for password recovery.")
+    if answer1 == 1:
         print(("Your user name: {}".format(account1))
     elif answer1 == 2:
         print("Your account: {}".format(website2))
@@ -62,4 +62,4 @@ while ctn:
         break
 #To be user friendly, the answer option should include y and Y
 
-#checking this. How to make a loop. Not quite working yet:)
+#checking this. How to make a loop. Not quite working yet:) Too many paths that get confused
