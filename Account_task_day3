@@ -1,0 +1,65 @@
+#Create variables
+    #website: e.g ```website1 = Facebook```
+    #account_name: e.g ```account1 = myaccount@gmail.com```
+    #password: e.g ``` password1 = 123456```
+    #nd more websites and counts and password
+#Print out the question for users to ask, ```"what website's password do you want to see"```
+
+#Print out options for users to choose
+
+    #1. Facebook
+    #2. Twitter
+
+#Show the account and password base on what users choose. E.g
+
+#If users want to see facebook, they press 1,
+#and you have to print out account1 and password1.
+#And so on.
+#try making a loop!
+
+
+MY PRACTICE ANSWER:
+
+
+website1 = "Facebook"
+website2 = "LinkedIn"
+website3 = "Twitter"
+website4 = "Instagram"
+website5 = "GitHub"
+account1 = "myaccount@gmail.com"
+account2 = "myaccount@yahoo.com"
+password1 = "hsk58sha43o"
+password2 = "t04naas67"
+password3 = "cnks-xliwq3"
+password4 = "u3csioxo"
+password5 = "dy748cjjhhh"
+
+ctn = True
+while ctn:
+    print("Oh shoot! Which account's password did you forget? Type a number. 1. Facebook, 2. LinkedIn, 3. Twitter, 4. Instagram, 5. GitHub")
+
+    answer1 = int(input("Type a number >>"))
+    if answer1 == 1:
+        print("Your account: {}".format(website1))
+        question = input("Type u for username and p for password recovery.")
+    if answer == "u":
+        print(("Your user name: {}".format(account1))
+    elif answer1 == 2:
+        print("Your account: {}".format(website2))
+    elif  answer1 == 3:
+        print("Your account: {}". format(website3))
+    else:
+        print("There is no such account, please try choosing another option from the list")
+    wish = input("Do you wish to continue? Y/N")
+    if wish.lower() == "Y" or wish.lower()== 'yes':
+        ctn = True
+    elif wish.lower()== 'no' or wish.lower() == 'n':
+        print ("Thank you. Bye bye. Have a nice day.")
+    else:
+        print("Please specify")
+        wish = input("Do you wish to continue? Y/N")
+        ctn = False
+        break
+#To be user friendly, the answer option should include y and Y
+
+#checking this. How to make a loop. Not quite working yet:)
